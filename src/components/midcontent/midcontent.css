@@ -1,0 +1,47 @@
+.secdiv{
+    /* border-left: white 10px solid; */
+    margin-top: 5%;
+    padding-left: 0;
+    /* background-image: url(Madre.jpg); */
+}
+.sample{
+    width: 100%;
+     height: 80%; 
+}
+.firstdiv{
+    margin-top: 16%;
+    /* margin-left: 1%; */
+    /* background-color: green; */
+    /* z-index: 500px; */
+}
+.clor{
+    /* background-color: red ; */
+    min-width: 1200px;
+    max-width: 1400px;
+    margin-bottom: 10%;
+    position: relative;
+    top: 800px;
+    height: 1300px;
+}
+/* .para{
+    text-align: left;
+    margin-left: 10%;
+} */
+.para{ 
+    position: relative;
+    /* padding: 72px 108px 72px 36px; */
+    /* margin: px 0; */
+    /* z-index: 20; */
+    color: #000;
+    background-color: rgba(255,255,255,0.9);
+    text-align: left;
+    margin-left: 10%;
+}
+.row{
+    width: 100%;
+    /* height: 100%; */
+}
+/* @media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+} */

@@ -1,0 +1,17 @@
+.mainReg{
+    background-image: url('9f9913628bd4ccb5d79b2fc51f45d5a6-1000.jpg');
+    z-index: -1;
+}
+.content{
+    background-color: rgba(162, 162, 185, 0.6);
+    padding: 20px 20px;
+    /* margin-top: 1%; */
+    /* text-align: center !important; */
+    /* color: red; */
+}
+.head{
+    text-align: left;
+}
+.world{
+    background-color: purple;
+}

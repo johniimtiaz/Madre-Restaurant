@@ -1,0 +1,17 @@
+.content{
+    background-color: rgba(162, 162, 185, 0.6);
+    padding: 20px 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+.head{
+    text-align: left;
+}
+.world{
+    background-color: purple;
+}
+.mainlog{
+    background-image: url('72baba5a28aec6ead9fe7cdf81d8648a.jpg');
+    
+}

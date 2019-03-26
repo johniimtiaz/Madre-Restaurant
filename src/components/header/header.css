@@ -1,0 +1,365 @@
+  /* body{
+    background-image: url('coffee-1920x1080-beans-smoke-dark-hd-2488.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 1536px 753px
+    
+ }   */
+/* .img{
+    max-width: 13%;
+    margin-top: 1.2%;
+    height: auto;
+   
+} 
+ .mine{
+    background-color: rgba(40,40,50,0.8) !important;
+    color: rgba(255,255,255,0.6) !important;
+}
+.bg-light{
+    background-color: rgba(40,40,50,0.8) !important
+}
+.navbar-brand{
+     background-color: rgba(40,40,50,0.8) 
+     margin-left: -1.7% 
+}
+ .navbar-collapse{
+    background-color: rgba(40,40,50,0.8)
+} 
+.bg-light {
+     background-color: #f8f9fa!important; 
+     background-color: rgba(40,40,50,0.8) !important;
+}  */
+/* .color{
+    background-color: red
+}
+.img{
+    width: 20%;
+    height: 82%;
+    margin-left: 48.8%;
+    margin-top: 1.6%;
+}
+.first{
+    background-color: #282832;
+}
+.second{
+    /* background-color: #282832 
+    background-color: grey
+}
+.icon{
+    color: aqua;
+    background-color: green;
+}  */
+
+ .bcHeader{
+      /* width: 100%;
+    height: 800px;    */
+     z-index: 1;
+    position: relative;
+    /* position: fixed; */
+    
+    
+ 
+} 
+.main{
+    width: 100%;
+    /* height: 150px; */
+    background-color: rgba(40,40,50,0.8);
+}
+.first{
+    /* background-color: rgba(40,40,50,0.8); */
+    height: 100px;
+    
+}
+/* .second{
+     background-color: rgba(40,40,50,0.8); 
+} */
+.img{
+    width: 20%;
+    height: 68%;
+    margin-left: 52.8%;
+    margin-top: 1.6%;
+}
+.ul{
+    margin-top: 6.1%;
+    /* margin-left: 5%; */
+}
+
+.instaicon{
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+}
+.instaicon:hover{
+    color: white;
+    
+}
+.faceicon{
+    color: rgba(255,255,255,0.6);
+    font-size: 16px;
+}
+.faceicon:hover{
+    color: white;
+}
+.yelpicon{
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+}
+.yelpicon:hover{
+    color: white
+}
+.tripadvisor{
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+}
+.tripadvisor:hover{
+    color: white
+}
+.envelope{
+    color: rgba(255,255,255,0.6);
+    border: 0.1px solid rgba(124, 121, 121, 0.6);
+    font-size: 17px;
+    padding: 0px -15px 0px -15px;
+    margin-left: 2%
+}
+.envelope:hover{
+    color: white;
+    border: 0.2px  solid #d33;
+}
+
+
+
+
+
+/* a, a:hover {
+    color: #000;
+    text-decoration: none;
+    rgba(255,255,255,0.8)
+  } */
+  
+  /* li {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    margin-right: 10px;
+  } */
+  /* li:last-child {
+    margin-right: 0;
+  } */
+  
+  li.item:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 1px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    
+  }
+  li.item:hover:after {
+    width: 100%;
+    background-color: #d33;
+
+    /* background: rgb(241, 40, 40); */
+  }
+
+  .first1{
+    /* background-color: rgba(40,40,50,0.8); */
+    
+    height: 115px;
+    
+}
+.bg-light{
+    margin-top: 2%;
+   
+}
+.center{
+    margin-top: 3%
+}
+/* .home{
+    margin-left: -50%
+} */
+.navwali{
+    /* background-color: rgba(40,40,50,0.8); */
+    width: 100%;
+    height: 82px;
+    
+}
+.dark{
+    /* background-color: rgba(40,40,50,0.8) !important; */
+    /* background-color: powderblue !important; */
+    /* margin-top: 0.6%; */
+    height: 70%;
+    width: 100%;
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+    /* margin-left: 11.1%; */
+    
+    
+}
+.ulist{
+    /* margin-left: 70px; */
+    width: 100%;
+    margin-top: 1.4%;
+    padding: 1% 3% !important;
+    /* background-color: green !important; */
+}
+.navbar-nav .nav-link {
+    color: rgba(255,255,255,0.8) !important;
+}
+.navbar-nav .nav-link{
+    color: rgba(255,255,255,0.8) !important;
+}
+.navbar-nav .nav-link:hover{
+    color: #d33 !important;
+    
+}
+.reser{
+    border: 1px solid rgba(124, 121, 121, 0.6);
+    margin-top: 0.5%;
+    padding: 10px 35px 10px 35px !important;
+}
+.reser:hover{
+    border: 0.2px solid #d33;
+}
+.container-fluid{
+    padding: 0px 0px !important;
+}
+ .mhome{
+    margin-right: 0.6%;
+    /* background-color: navy; */
+    padding: 5px 20px 5px 20px;
+    /* padding-bottom: 2%; */
+}
+.mmenus{
+    margin-right: 2%;
+    padding: 5px 20px 5px 20px;
+    /* background-color: pink; */
+}
+.mspe{
+    margin-left: 1%;
+    margin-top: 0.3%;
+    /* background-color: navy; */
+}
+.mtake{
+    margin-left: 1%;
+    margin-top: 0.3%;
+    /* background-color: olive; */
+}
+.mloc{
+    margin-left: 2%;
+    /* background-color: purple; */
+    padding: 5px 35px 5px 35px;
+     /* position: static;  */
+}
+.mres{
+    margin-left: 1%;
+    /* background-color: plum; */
+    /* padding: 5px 35px 5px 35px; */
+} 
+.color{
+    color: rgba(255,255,255,0.6) !important;
+}
+.navbar-nav .nav-link .nav-item{
+    color: rgba(255,255,255,0.6) !important;
+}
+
+
+/* Mdeia Queries */
+
+@media only screen and (min-width: 360px) and (max-width: 740px) { 
+    .bcHeader{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+    .first{
+        width: 100%;
+        /* background-color: red !important; */
+        /* margin-right: -10%; */
+    }
+
+    .img{
+        width: 15%;
+        height: 5%;
+        margin-left: 2%;
+        margin-top: 1.6%;
+    };
+    .second{
+        width: 100%;
+        background-color:green !important;
+    }
+ }
+
+ @media only screen and (min-width: 360px) and (max-width: 628px) {
+     .first{
+         width: 50%;
+         height: 25%;;
+         float: left;
+     }
+     .img{
+         width: 75%;
+         height: 70%;
+         margin-top: 1.2% !important;
+     }
+     .second{
+         max-width: 50%;
+         float: right;
+         position: relative;
+     }
+     .ul li{
+         width: 15%;
+         height: 15%;
+         margin-top: -5%
+     }
+     .faceicon{
+         font-size: 12px;
+     }
+     .instaicon{
+         font-size: 12px;
+     }
+     .tripadvisor{
+         font-size: 12px;
+     }
+     .yelpicon{
+         font-size: 10px;
+         margin-top: 2px;
+     }
+     .envelope{
+         font-size: 13px;
+         color: rgba(255,255,255,0.6);
+         text-decoration: none;
+         border: none;
+         margin-top: -2px;
+     }
+     .navwali{
+         max-width: 100%;
+     }
+     .ulist{
+         max-width: 100%;
+     }
+     .ulist li .color{
+        font-size: 7px;
+        padding: 0px 0px;
+        float: left;
+        /* display: inline; */
+     }
+     Link{
+         display: inline;
+         padding: 0px 0px !important; 
+     }
+     .mhome{
+         font-size: 7px;
+         padding: 0px 0px !important;
+         display: inline;
+     }
+     li.nav-item .item{
+         padding: 0px 0px !important;
+     }
+     .mhome{
+         margin-right: 0px;
+         padding: 0px 0px;
+         display: inline;
+     }
+     
+ }

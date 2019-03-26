@@ -1,0 +1,283 @@
+.mainReg{
+    background-image: url('9f9913628bd4ccb5d79b2fc51f45d5a6-1000.jpg');
+}
+.content{
+    background-color: rgba(162, 162, 185, 0.6);
+    padding: 20px 20px;
+    /* margin-top: 1%; */
+    /* text-align: center !important; */
+    /* color: red; */
+}
+.head{
+    text-align: left;
+}
+.world{
+    background-color: purple;
+}
+
+
+
+ 
+
+
+/* state = {
+        firstName: "",
+        firstNameError: "",
+        lastName: "",
+        lastNameError: "",
+        password: "",
+        passwordError: "",
+        email: "",
+        emailError: "",
+    };
+
+    // Validate Form by function
+    validate = ()=>{
+        let isError = false;
+        const errors = {};
+
+        // First Name Lengh Error Handler
+        if(this.state.firstName.length < 5){
+           isError = true;
+           errors.firstNameError = "First Name must be at least 5 characters longer."
+        } 
+        
+        // Last Name Length Error Handler
+        if(this.state.lastName.length < 5){
+            isError = true;
+            errors.lastNameError = "Last Name must be at least 5 characters longer."
+         } 
+
+        // E-Mail @ Sign Error Handler
+        if(this.state.email.indexOf('@') === -1 ) {
+            isError = true;
+            errors.emailError = "E-Mail must be valid."
+         } 
+
+
+         
+
+
+        if(isError){
+            this.setState({
+                ...this.state,
+                ...errors
+            })
+        }
+        return isError;
+    }
+
+    // Submit button Handler
+    onSubmit = (e) =>{
+        console.log("Hello I'm working")
+        e.preventDefault();
+        const err = this.validate();
+        if(!err){
+        this.setState({
+            firstName: "",
+            lastName: "",
+            password: "",
+            email: "",
+        });
+        this.props.onChange({
+            firstName: "",
+            lastName: "",
+            password: "",
+            email: "",
+        });
+    }
+    }; */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    constructor(props){
+        super(props);
+        this.state = {
+            firstName: "",
+            firstNameError: "",
+            lastName: "",
+            lastNameError: "",
+            password: "",
+            passwordError: "",
+            email: "",
+            emailError: "",
+        };
+      }
+       
+    
+        // Validate Form by function
+        validate = ()=>{
+            let isError = false;
+            const errors = {};
+    
+            // First Name Lengh Error Handler
+            if(this.state.firstName.length < 5){
+               isError = true;
+               errors.firstNameError = "First Name must be at least 5 characters longer."
+            } 
+            
+            // Last Name Length Error Handler
+            if(this.state.lastName.length < 5){
+                isError = true;
+                errors.lastNameError = "Last Name must be at least 5 characters longer."
+             } 
+    
+            // E-Mail @ Sign Error Handler
+            if(this.state.email.indexOf('@') === -1 ) {
+                isError = true;
+                errors.emailError = "E-Mail must be valid."
+             } 
+    
+    
+             
+    
+    
+            if(isError){
+                this.setState({
+                    ...this.state,
+                    ...errors
+                })
+            }
+            return isError;
+        }
+    
+        // Submit button Handler
+        onSubmit = (e) =>{
+            console.log("Hello I'm working")
+            e.preventDefault();
+            const err = this.validate();
+            if(!err){
+            this.setState({
+                firstName: "",
+                lastName: "",
+                password: "",
+                email: "",
+            });
+            this.props.onChange({
+                firstName: "",
+                lastName: "",
+                password: "",
+                email: "",
+            });
+        }
+        };  */
+
+
+        /* onChange={this.handleChange}  */
+        /* errorText={this.state.lastNameError} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Entire Code */
+
+/* import React, { Component } from 'react'
+import './register.css'
+
+
+
+export default class Register extends Component{
+  constructor(props) {
+    super(props)
+    this.state = {
+        name: '',
+        email: '',
+        password: '',   
+        emailError:'',
+        passwordError:'',
+        loading:false
+    }
+};
+
+onBlurEmailHandler = (e) =>{
+  const {email} = this.state;
+  var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+let result = re.test(String(email).toLowerCase());
+
+if(result){
+  this.setState({emailError:''})
+  this.props.startEmailVerification(email);
+  
+}
+else{
+  this.setState({emailError:"Please use correct email address!"})
+}
+
+};
+
+onChangeHandler = (e) => {
+  let name = e.target.name;
+  let value = e.target.value;
+  this.setState({[name]: value});
+};
+
+    
+    render() {
+      const {name,email,password,emailError,passwordError,loading} = this.state;
+      const isvalid = name ==='' || email ==='' || password ==='' ||  loading; 
+        
+      return (
+        <div className="container-fluid mainReg">
+            <div className="row">
+            <div className="col-xl-4 col-lg-4 col-md-4 "></div>
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12  content">
+            <div className="head">
+            <h6>Madre! Oaxacan Restaurant and Mezcaleria-Online Ordering</h6>
+            <form onSubmit={this.onSubmit} class="needs-validation form" noValidate>
+    <div class="form-group">
+      <label for="uname">First Name</label>
+      <input type="text" class="form-control" id="uname" placeholder="First Name" name="firstName"   required />
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="uname">Last Name</label>
+      <input type="text" class="form-control" id="uname" placeholder="Second Name" name="lastName"  required />
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Password" name="password"  required />
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="uname">E-Mail:</label>
+      <input type="email" class="form-control" id="uname" placeholder="E-mail" name="email" onBlur={this.onBlurEmailHandler} onChange={this.onChangeHandler} required  />
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <button type="submit" class="btn btn-primary" >Create New Account</button>
+    <h6>Already Registered. <a href="/login">Login</a>!</h6>
+    
+  </form>
+  <div className="col-xl-4 col-lg-4 col-md-4 "></div>
+            {/* <span>Powered by:</span> <img src={require('./images/cropped-icon-32x32.png')} alt="Madre" /> <span>Madre</span> }
+            </div>
+            </div>
+            
+            
+            </div>
+          </div>
+      )
+    }
+} */
