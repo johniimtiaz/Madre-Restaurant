@@ -17,7 +17,7 @@ import _ from 'lodash'
 const styles = theme => ({
     margin: {
         margin: theme.spacing.unit,
-    },
+    },  
 });
 
 
@@ -213,7 +213,7 @@ class Register extends Component {
         
         return (
             
-            <div>
+            <div className="background">
                 <div>
                     <FormControl className={classNames(classes.margin , {'error': _.get(error, 'name')})}>
                     

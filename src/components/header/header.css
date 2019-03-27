@@ -337,13 +337,15 @@
      }
      .ulist{
          max-width: 100%;
+         margin-top: -7%;
+         padding: 0 0;
      }
-     .ulist li .color{
+      .ulist li .color{
         font-size: 7px;
         padding: 0px 0px;
         float: left;
         /* display: inline; */
-     }
+      }
      Link{
          display: inline;
          padding: 0px 0px !important; 
@@ -361,5 +363,88 @@
          padding: 0px 0px;
          display: inline;
      }
-     
+     .ulist li{
+         display: inline;
+         padding: 0 0;
+         margin: 0 0;
+         /* text-align: center; */
+     }
+      .reser {
+         font-size: 7px;
+         padding: 0 0;
+         margin-right: 290px;
+         /* margin: 0 0; */
+         border: none;
+         display: inline;
+     }
+     .mres {
+        margin-left: -12%;
+    }
+     .reser:hover{
+         border: none;
+     }
+     li.item:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 0px;
+        width: 0px;
+        background: transparent;
+        transition: width .0s ease, background-color .0s ease;
+        
+      }
+      li.item:hover:after {
+        width: 100%;
+        background-color: #d33;
+      }   
+      .ulist li{
+        display: inline;
+        padding: 0 0;
+        margin: 0 0;
+        font-size: 5px;
+    }
+ }
+
+ @media only screen and (min-width: 767px) and (max-width: 796px){
+    .envelope {
+        font-size: 12px;
+        padding: 0px 0px;
+        margin-left: 1.5%;
+        margin-top: 8px;
+        border: none;
+    }
+    .envelope:hover{
+        border: none;
+    }
+    .faceicon{
+        font-size: 12px;
+    }
+    .instaicon{
+        font-size: 12px;
+    }
+    .tripadvisor{
+        font-size: 12px;
+    }
+    .yelpicon{
+        font-size: 10px;
+        margin-top: 2px;
+    }
+    .first{
+        max-width: 50%;
+    }
+    .second{
+        max-width: 50%;
+    }
+    .img{
+        width: 35%;
+        height: 35%;
+        margin-left: 2%;
+        margin-top: 8%;
+    }
+    .ulist li{
+        display: inline;
+        padding: 0 0;
+        margin: 0 0;
+        font-size: 10px;
+    }
  }

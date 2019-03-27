@@ -8,7 +8,7 @@ import './footer.css'
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className="foots">
         <div class="container-fluid bcFooter">
           <div className="mainFooter">
 
@@ -55,30 +55,30 @@ export default class Footer extends Component {
                 {/* <!-- Links --> */}
                 <ul class="navbar-nav justify-content-center ulist1">
 
-                  <li class="nav-item item mhome">
+                  <li class="nav-item item1 mhome1">
                     <Link to="/home" class="nav-link" >HOME</Link>
                   </li>
 
-                  <li class="nav-item item mmenus1">
+                  <li class="nav-item item1 mmenus1">
                     <Link to="/menus" class="nav-link">MENUS</Link>
                   </li>
 
-                  <li class="nav-item item mspe1">
+                  <li class="nav-item item1 mspe1">
                     <Link to="/specialeventsandcatering" class="nav-link" href="#">SPECIAL EVENTS &amp; CATERING</Link>
                   </li>
 
-                  <li class="nav-item item mtake1">
+                  <li class="nav-item item1 mtake1">
                     <a class="nav-link" href="#">TAKE OUT &amp; DELIVERY</a>
                   </li>
 
-                  <li class="nav-item item mloc1">
+                  <li class="nav-item item1 mloc1">
                     <a class="nav-link" href="#">LOCATIONS</a>
                   </li>
 
 
 
                   <li class="nav-item ">
-                    <a class="nav-link reser mres1" href="#">RESERVATIONS</a>
+                    <a class="nav-link reser1 mres1" href="#">RESERVATIONS</a>
                   </li>
                 </ul>
               </nav>

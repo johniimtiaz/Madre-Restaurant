@@ -1,5 +1,6 @@
 .secdiv{
     /* border-left: white 10px solid; */
+    background-image: url('./Madre.jpg');
     margin-top: 5%;
     padding-left: 0;
     /* background-image: url(Madre.jpg); */
@@ -10,6 +11,7 @@
 }
 .firstdiv{
     margin-top: 16%;
+    display: block;
     /* margin-left: 1%; */
     /* background-color: green; */
     /* z-index: 500px; */
@@ -41,7 +43,29 @@
     width: 100%;
     /* height: 100%; */
 }
-/* @media (min-width: 1200px)
-.container {
-    max-width: 1140px;
-} */
+@media only screen and (min-width: 360px) and (max-width: 628px){
+    .firstdiv{
+        margin-top: -50%;
+        margin-right: 10%;
+        max-width: 40%;
+        display: block;
+    }
+    .secdiv{
+        /* margin-top: -50%;
+        margin-right: 10%;
+        max-width: 40%; */
+        /* visibility: hidden; */
+        max-width: 0%;
+        
+    }
+    .clor{
+        max-width: 40%;
+    }
+    .para{
+        margin: 0 0;
+        max-width: 80%;
+    }
+    .sample{
+        max-width: 10%;
+    }
+}

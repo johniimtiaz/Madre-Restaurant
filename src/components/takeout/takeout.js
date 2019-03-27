@@ -12,6 +12,7 @@ export default class TakeOut extends Component {
 
   render() {
     return (
+      <div className="container-fluid tasveer">
       <div className="container mainlog">
 
         <Card className="text-center mainlog">
@@ -27,13 +28,11 @@ export default class TakeOut extends Component {
             </Card.Body>
           <Card.Footer className="text-muted">Madre Restaurant</Card.Footer>
         </Card>
+      
 
 
-
-
-
-
-      </div>
+    </div>
+    </div>
     )
   }
 }

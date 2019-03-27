@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Sample from './Madre.jpg';
+// import Sample from './Madre.jpg';
 import './midcontent.css'
 
 
@@ -43,7 +43,7 @@ Allow us to delight your<br />taste buds.<br /><br />
                     </div>
 
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 secdiv">
-                        <img src={Sample} className="img-fluid sample" alt="Image" />
+                        {/* <img src={Sample} className="img-fluid sample" alt="Image" /> */}
                     </div>
                 </div>
 

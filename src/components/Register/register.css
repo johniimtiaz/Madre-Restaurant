@@ -15,3 +15,12 @@
 .world{
     background-color: purple;
 }
+.form{
+    width: 30%;
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 0.1%;
+    padding: 5% 0%;
+    /* margin-top: 1% */
+    
+}

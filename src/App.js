@@ -8,7 +8,8 @@ import MidContent from './components/midcontent/midcontent'
 import Footer from './components/footer/footer'
 import Menus from './components/menus/menus'
 import TakeOut from './components/takeout/takeout'
-import Register from './components/takeout/registerNew'
+import Register from './components/Register/register'
+// import Signup from './components/SignUp/signup'
 import Login from './components/takeout/login'
 import SpecialEvents from './components/special events/specialEvent'
 import DemoCarousel from './components/header/background'
@@ -29,7 +30,7 @@ class App extends Component {
                 <Route path="/home" component={Home} />
                 <Route path="/menus" component={Menus} />
                 <Route path="/take-out" component={TakeOut} />
-                <Route path="/registerAccount" component={Register} />
+                <Route path="/register" component={Register} />
                 <Route path="/login" component={Login} />
                 <Route path="/special-events" component={SpecialEvents} />
                 <Route path="/locations" component={Location} />
